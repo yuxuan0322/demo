@@ -58,11 +58,14 @@ public class Power {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	@Override
-	public String toString() {
-		return "power [id=" + id + ", name=" + name + ", country=" + country + ", occupation=" + occupation
-				+ ", slogan=" + slogan + ", perish=" + perish + "]";
+	public Power(int id, String name, String slogan, String perish) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.slogan = slogan;
+		this.perish = perish;
 	}
-
+	
+	
 	
 }
